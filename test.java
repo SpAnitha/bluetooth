@@ -9,7 +9,7 @@ import java.io.OutputStream;
 import java.util.UUID;
 
 public class BluetoothService {
-    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB"); // UUID for SPP (Serial Port Profile)
+    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB"); 
     private BluetoothAdapter bluetoothAdapter;
     private BluetoothDevice bluetoothDevice;
     private BluetoothSocket bluetoothSocket;
